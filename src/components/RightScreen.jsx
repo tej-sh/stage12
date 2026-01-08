@@ -13,7 +13,6 @@ export default function RightScreen({ videoRef, customVideoSrc }) {
                 <video
                     ref={videoRef}
                     src={customVideoSrc}
-                    autoPlay
                     muted
                     loop
                     playsInline
